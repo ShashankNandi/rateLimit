@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties("limits-service")
+@ConfigurationProperties("limits-service")  //corresponds to the name of the variable here limits-service.minimum
 public class Configuration {
 
     private int minimum;
